@@ -1,0 +1,119 @@
+body {
+    background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png)
+}
+
+header {
+    text-align: center;
+    color: white;
+    background-color: rgba(87, 83, 83, 0.993);
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    z-index: 1;
+}
+
+header h1 {
+    font-family: OpenSansRegular, Helvetica, Arial, sans-serif;
+}
+
+
+/* Navbar styles */
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333;
+    padding: 10px;
+    width: 100%;
+    z-index: 1;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    font-family: OpenSansRegular, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#img-div {
+    position: relative;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    z-index: 1;
+}
+
+#img-div img {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    height: auto;
+    display: block;
+    top: 10px;
+    bottom: 10px;
+}
+
+#img-caption {
+    font-family: OpenSansRegular, Helvetica, Arial, sans-serif;
+    position: relative;
+    color: rgb(255, 255, 255);
+    top: 10px;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    margin: auto;
+    height: auto;
+}
+
+#img {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    height: auto;
+    display: block;
+}
+
+.parent {
+    border: 10px solid green;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: auto;
+    flex-wrap: wrap;
+}
+
+.child1 {
+    font-family: OpenSansRegular, Helvetica, Arial, sans-serif;
+    flex: 1 1 400px;
+}
+
+.child2 {
+    border: 10px solid black;
+    flex: 1 1 400px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    font-family: OpenSansRegular, Helvetica, Arial, sans-serif;
+    list-style-type: none;
+    justify-content: space-evenly;
+    right: 30px;
+}
+
+.child3 {
+    flex: 1 1 400px;
+}
+
+#image3 {
+    max-width: 100%;
+}
