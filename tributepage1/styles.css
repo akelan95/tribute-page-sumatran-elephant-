@@ -112,8 +112,6 @@ li a {
 
 .child3 {
     flex: 1 1 400px;
-    position: relative;
-    left: 200px;
 }
 
 }
